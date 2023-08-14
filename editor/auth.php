@@ -14,11 +14,8 @@
 
   if (!empty($user) && !empty($password)) {
     switch ($user . "-" . $password) {
-      case "dusan-dusanabcd":
-        $authorLogged = "Dušan";
-      break;
-      case "rasto-rastoabcd":
-        $authorLogged = "Rasťo";
+      case "admin-admin":
+        $authorLogged = "Admin";
       break;
     }
   }
