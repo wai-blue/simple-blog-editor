@@ -19,7 +19,6 @@
       foreach (scandir("{$this->blogsDir}/texts") as $filename) {
         if (substr($filename, -4) === ".txt") {
           $blogData = $this->parseBlog(substr($filename, 0, -4));
-
           // if (empty($this->author) || $blogData["author"] == $this->author) {
             $blogs[strtotime($blogData["datePublished"])] = $blogData;
           // }
