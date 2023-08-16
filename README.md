@@ -1,9 +1,9 @@
 # simple-blog-editor
 # Instalation
-1. Add the Parsedown package to your project
+1. Add required packages with composer
 ```
-composer require erusev/parsedown
+composer install
 ```
-2. Change the `require` path for vendor autoload in `index.php` and `save.php` if needed
+2. Change the `require` path for vendor autoload in `index.php` and `save.php`, if needed
 3. Delete the placeholders in the img and texts folders
-4. (optional) Change or add an username and password in `auth.php`
+4. (optional) Change or add an usernames and passwords in `auth.php`
