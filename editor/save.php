@@ -4,7 +4,7 @@
   $slug = $_POST['slug'];
   $content = base64_decode($_POST['content']);
 
-  require_once(__DIR__."/../../vendor/autoload.php");
+  require_once(__DIR__."/../vendor/autoload.php");
   require_once(__DIR__."/editor.php");
 
   session_start();
